@@ -113,7 +113,7 @@ for icon in glob.glob("resources/icon-*.png"):
 font = ImageFont.truetype(inkyphat.fonts.FredokaOne, 22)
 
 # Load our backdrop image
-inkyphat.set_image("resources/backdrop.png")
+inkyphat.set_image("resources/inkyalfa.png")
 
 # Let's draw some lines!
 inkyphat.line((69, 36, 69, 81)) # Vertical line
